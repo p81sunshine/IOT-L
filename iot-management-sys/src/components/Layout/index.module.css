@@ -1,0 +1,33 @@
+.header {
+  font-size: 20px;
+  font-weight: bold;
+  border-bottom: 1px solid #ebebeb;
+  background-color: #fff;
+  color: #fff;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(23, 23, 21, 0.5),
+      rgba(29, 29, 83, 0.5)
+    ),
+    url("/back.jpg");
+  background-position: center; /* 将背景图片的中心放置在容器的中心 */
+}
+
+.logo {
+  margin-right: 8px;
+  margin-top: -6px;
+}
+
+.sectionContent {
+  padding: 32px;
+}
+.content {
+  border-radius: 16px;
+  padding: 24px;
+}
+
+.sider {
+  position: fixed;
+  left: 0;
+  height: 100vh;
+}
